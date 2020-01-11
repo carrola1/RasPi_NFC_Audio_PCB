@@ -4,4 +4,5 @@
   (lib (name Pad)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Pad.lib)(options "")(descr ""))
   (lib (name PN532)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/PN532.lib)(options "")(descr ""))
   (lib (name MAX98357)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MAX98357.lib)(options "")(descr ""))
+  (lib (name MIC5225)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MIC5225.lib)(options "")(descr ""))
 )
