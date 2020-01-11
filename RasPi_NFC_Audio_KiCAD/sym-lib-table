@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name RasPi_NFC_Audio_KiCAD-rescue)(type Legacy)(uri ${KIPRJMOD}/RasPi_NFC_Audio_KiCAD-rescue.lib)(options "")(descr ""))
+  (lib (name Oscillator)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Oscillator.lib)(options "")(descr ""))
+  (lib (name Pad)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Pad.lib)(options "")(descr ""))
+  (lib (name PN532)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/PN532.lib)(options "")(descr ""))
+  (lib (name MAX98357)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MAX98357.lib)(options "")(descr ""))
+)
