@@ -835,17 +835,6 @@ F 3 "" H 2380 6110 50  0001 C CNN
 	1    2380 6110
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP1
-U 1 1 5E1BD36A
-P 2380 6430
-F 0 "JP1" V 2380 6497 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 2335 6497 50  0001 L CNN
-F 2 "" H 2380 6430 50  0001 C CNN
-F 3 "~" H 2380 6430 50  0001 C CNN
-	1    2380 6430
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	2160 6430 2230 6430
 Wire Wire Line
@@ -875,17 +864,6 @@ F 2 "" H 3140 6120 50  0001 C CNN
 F 3 "" H 3140 6120 50  0001 C CNN
 	1    3140 6120
 	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP2
-U 1 1 5E1D4093
-P 3140 6440
-F 0 "JP2" V 3140 6507 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 3095 6507 50  0001 L CNN
-F 2 "" H 3140 6440 50  0001 C CNN
-F 3 "~" H 3140 6440 50  0001 C CNN
-	1    3140 6440
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	2920 6440 2990 6440
