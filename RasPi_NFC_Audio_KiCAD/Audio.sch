@@ -500,10 +500,10 @@ U 1 1 5E2A07D2
 P 6710 2630
 F 0 "J4" H 6790 2622 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 6790 2531 50  0000 L CNN
-F 2 "" H 6710 2630 50  0001 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6710 2630 50  0001 C CNN
 F 3 "~" H 6710 2630 50  0001 C CNN
-F 4 "282837-2" H 6710 2630 50  0001 C CNN "Part #"
-F 5 "A113320-ND" H 6710 2630 50  0001 C CNN "DigiKey"
+F 4 "282834-2" H 6710 2630 50  0001 C CNN "Part #"
+F 5 "A98333-ND" H 6710 2630 50  0001 C CNN "DigiKey"
 	1    6710 2630
 	1    0    0    -1  
 $EndComp
@@ -513,10 +513,10 @@ U 1 1 5E2A25ED
 P 6750 5420
 F 0 "J5" H 6830 5412 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 6830 5321 50  0000 L CNN
-F 2 "" H 6750 5420 50  0001 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6750 5420 50  0001 C CNN
 F 3 "~" H 6750 5420 50  0001 C CNN
-F 4 "282837-2" H 6750 5420 50  0001 C CNN "Part #"
-F 5 "A113320-ND" H 6750 5420 50  0001 C CNN "DigiKey"
+F 4 "282834-2" H 6750 5420 50  0001 C CNN "Part #"
+F 5 "A98333-ND" H 6750 5420 50  0001 C CNN "DigiKey"
 	1    6750 5420
 	1    0    0    -1  
 $EndComp
@@ -528,7 +528,7 @@ AR Path="/5E17696B/5E1D8095" Ref="TP?"  Part="1"
 AR Path="/5E18E75B/5E1D8095" Ref="TP5"  Part="1" 
 F 0 "TP5" H 6538 2688 50  0000 L CNN
 F 1 "TestPoint" H 6538 2597 50  0001 L CNN
-F 2 "" H 6680 2570 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6680 2570 50  0001 C CNN
 F 3 "~" H 6680 2570 50  0001 C CNN
 	1    6480 2570
 	1    0    0    -1  
@@ -546,7 +546,7 @@ AR Path="/5E17696B/5E1DA818" Ref="TP?"  Part="1"
 AR Path="/5E18E75B/5E1DA818" Ref="TP6"  Part="1" 
 F 0 "TP6" H 6538 2898 50  0000 L CNN
 F 1 "TestPoint" H 6538 2807 50  0001 L CNN
-F 2 "" H 6680 2780 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6680 2780 50  0001 C CNN
 F 3 "~" H 6680 2780 50  0001 C CNN
 	1    6480 2780
 	-1   0    0    1   
@@ -564,7 +564,7 @@ AR Path="/5E17696B/5E1DCFB9" Ref="TP?"  Part="1"
 AR Path="/5E18E75B/5E1DCFB9" Ref="TP8"  Part="1" 
 F 0 "TP8" H 6538 5678 50  0000 L CNN
 F 1 "TestPoint" H 6538 5587 50  0001 L CNN
-F 2 "" H 6680 5560 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6680 5560 50  0001 C CNN
 F 3 "~" H 6680 5560 50  0001 C CNN
 	1    6480 5560
 	-1   0    0    1   
@@ -577,7 +577,7 @@ AR Path="/5E17696B/5E1DE537" Ref="TP?"  Part="1"
 AR Path="/5E18E75B/5E1DE537" Ref="TP7"  Part="1" 
 F 0 "TP7" H 6538 5498 50  0000 L CNN
 F 1 "TestPoint" H 6538 5407 50  0001 L CNN
-F 2 "" H 6680 5380 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 6680 5380 50  0001 C CNN
 F 3 "~" H 6680 5380 50  0001 C CNN
 	1    6480 5380
 	1    0    0    -1  
