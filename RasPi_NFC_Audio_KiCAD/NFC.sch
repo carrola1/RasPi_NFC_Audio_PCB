@@ -302,8 +302,6 @@ Connection ~ 9950 3890
 Wire Wire Line
 	9650 3490 9950 3490
 Wire Wire Line
-	9950 3460 9950 3490
-Wire Wire Line
 	9650 4490 9650 4340
 Wire Wire Line
 	9650 4340 9950 4340
@@ -725,8 +723,6 @@ NoConn ~ 5350 4840
 NoConn ~ 5350 2440
 NoConn ~ 5350 2540
 NoConn ~ 5350 2640
-Connection ~ 9950 4340
-Connection ~ 9950 3490
 Wire Wire Line
 	6750 5640 6750 5540
 Connection ~ 6450 5640
@@ -793,33 +789,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 1640 5850 1640
 Wire Wire Line
-	9950 4340 9950 4390
-Wire Wire Line
 	9950 3490 9950 3540
 Wire Wire Line
 	6450 5640 6750 5640
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5E181FE8
-P 9950 3460
-F 0 "TP3" H 10008 3578 50  0000 L CNN
-F 1 "TestPoint" H 10008 3487 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 3460 50  0001 C CNN
-F 3 "~" H 10150 3460 50  0001 C CNN
-	1    9950 3460
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5E1839E2
-P 9950 4390
-F 0 "TP4" H 9892 4416 50  0000 R CNN
-F 1 "TestPoint" H 9892 4507 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 4390 50  0001 C CNN
-F 3 "~" H 10150 4390 50  0001 C CNN
-	1    9950 4390
-	-1   0    0    1   
-$EndComp
 Text GLabel 5250 2940 0    50   Input ~ 0
 SEL0
 Text GLabel 5250 3040 0    50   Input ~ 0
