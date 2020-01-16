@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:RasPi_NFC_Audio_KiCAD-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -497,28 +497,28 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E2A07D2
-P 6710 2630
-F 0 "J4" H 6790 2622 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6790 2531 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6710 2630 50  0001 C CNN
-F 3 "~" H 6710 2630 50  0001 C CNN
-F 4 "282834-2" H 6710 2630 50  0001 C CNN "Part #"
-F 5 "A98333-ND" H 6710 2630 50  0001 C CNN "DigiKey"
-	1    6710 2630
-	1    0    0    -1  
+P 6710 2730
+F 0 "J4" H 6790 2722 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6790 2631 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6710 2730 50  0001 C CNN
+F 3 "~" H 6710 2730 50  0001 C CNN
+F 4 "282834-2" H 6710 2730 50  0001 C CNN "Part #"
+F 5 "A98333-ND" H 6710 2730 50  0001 C CNN "DigiKey"
+	1    6710 2730
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 5E2A25ED
-P 6750 5420
-F 0 "J5" H 6830 5412 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 6830 5321 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6750 5420 50  0001 C CNN
-F 3 "~" H 6750 5420 50  0001 C CNN
-F 4 "282834-2" H 6750 5420 50  0001 C CNN "Part #"
-F 5 "A98333-ND" H 6750 5420 50  0001 C CNN "DigiKey"
-	1    6750 5420
-	1    0    0    -1  
+P 6750 5520
+F 0 "J5" H 6830 5512 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6830 5421 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 6750 5520 50  0001 C CNN
+F 3 "~" H 6750 5520 50  0001 C CNN
+F 4 "282834-2" H 6750 5520 50  0001 C CNN "Part #"
+F 5 "A98333-ND" H 6750 5520 50  0001 C CNN "DigiKey"
+	1    6750 5520
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
