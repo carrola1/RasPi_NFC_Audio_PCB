@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:RasPi_NFC_Audio_KiCAD-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -229,7 +229,7 @@ U 1 1 59AD464A
 P 4090 5390
 F 0 "J2" H 4130 6450 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 4140 6416 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H -760 4440 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H -760 4440 50  0001 C CNN
 F 3 "" H -760 4440 50  0001 C CNN
 F 4 "M20-7831046" H 4090 5390 50  0001 C CNN "Part #"
 F 5 "952-1837-ND" H 4090 5390 50  0001 C CNN "DigiKey"
