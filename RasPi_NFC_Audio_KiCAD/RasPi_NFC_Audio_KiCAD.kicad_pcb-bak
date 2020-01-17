@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.16)
+    (last_trace_width 0.25)
     (user_trace_width 0.16)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
@@ -2648,7 +2648,7 @@
     (at 133.536 73.6866 180)
     (path /5E17696B/5ACE46F9)
     (attr smd)
-    (fp_text reference Y1 (at -2.583 2.9346) (layer F.SilkS)
+    (fp_text reference Y1 (at 2.4716 -2.0692) (layer F.SilkS)
       (effects (font (size 0.802409 0.802409) (thickness 0.1)))
     )
     (fp_text value Oscillator (at 0.04072 2.78303) (layer F.SilkS) hide
@@ -3266,6 +3266,7 @@
     )
   )
 
+  (gr_circle (center 136.0428 71.9966) (end 136.3476 72.0728) (layer F.SilkS) (width 0.15))
   (gr_circle (center 137.0842 84.341) (end 137.437981 84.341) (layer F.SilkS) (width 0.15))
   (gr_text "AC\nRev 1.0" (at 201.4986 97.7014) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3) italic))
@@ -3292,7 +3293,6 @@
   )
   (gr_line (start 161.4654 48.2462) (end 208.9654 48.2462) (layer Edge.Cuts) (width 0.1) (tstamp 5E1FD838))
   (gr_line (start 208.9654 113.2462) (end 161.4654 113.2462) (layer Edge.Cuts) (width 0.1) (tstamp 5E1FD833))
-  (gr_line (start 138.9384 48.146) (end 138.9384 113.1192) (layer F.SilkS) (width 0.1))
   (gr_line (start 111.4654 113.2462) (end 127.4654 113.2462) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 111.4654 51.2462) (end 108.4654 51.2462) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 208.9654 51.2462) (end 208.9654 48.2462) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5E1E9FDD))
