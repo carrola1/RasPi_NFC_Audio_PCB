@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:RasPi_NFC_Audio_KiCAD-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -724,26 +724,6 @@ Wire Wire Line
 Wire Wire Line
 	6740 1970 6740 1910
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q2
-U 1 1 5E22CE38
-P 2020 6240
-F 0 "Q2" H 2128 6293 60  0000 L CNN
-F 1 "DMG1012T-7" H 2128 6187 60  0000 L CNN
-F 2 "digikey-footprints:SOT-523" H 2220 6440 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2220 6540 60  0001 L CNN
-F 4 "DMG1012T-7DICT-ND" H 2220 6640 60  0001 L CNN "Digi-Key_PN"
-F 5 "DMG1012T-7" H 2220 6740 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2220 6840 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 2220 6940 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2220 7040 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 2220 7140 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 630MA SOT-523" H 2220 7240 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 2220 7340 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2220 7440 60  0001 L CNN "Status"
-	1    2020 6240
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E22D6BE
 P 2020 5700
@@ -815,26 +795,6 @@ Wire Wire Line
 Wire Wire Line
 	1610 6340 1720 6340
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q4
-U 1 1 5E259CAF
-P 4030 4640
-F 0 "Q4" H 4138 4693 60  0000 L CNN
-F 1 "DMG1012T-7" H 4138 4587 60  0000 L CNN
-F 2 "digikey-footprints:SOT-523" H 4230 4840 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4230 4940 60  0001 L CNN
-F 4 "DMG1012T-7DICT-ND" H 4230 5040 60  0001 L CNN "Digi-Key_PN"
-F 5 "DMG1012T-7" H 4230 5140 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 4230 5240 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 4230 5340 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4230 5440 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 4230 5540 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 630MA SOT-523" H 4230 5640 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 4230 5740 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4230 5840 60  0001 L CNN "Status"
-	1    4030 4640
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E259CBB
 P 4030 4100
@@ -905,26 +865,6 @@ Wire Wire Line
 	4440 4780 4440 4740
 Wire Wire Line
 	4440 4740 4330 4740
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q3
-U 1 1 5E268309
-P 4010 6240
-F 0 "Q3" H 4118 6293 60  0000 L CNN
-F 1 "DMG1012T-7" H 4118 6187 60  0000 L CNN
-F 2 "digikey-footprints:SOT-523" H 4210 6440 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4210 6540 60  0001 L CNN
-F 4 "DMG1012T-7DICT-ND" H 4210 6640 60  0001 L CNN "Digi-Key_PN"
-F 5 "DMG1012T-7" H 4210 6740 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 4210 6840 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 4210 6940 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4210 7040 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 4210 7140 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 630MA SOT-523" H 4210 7240 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 4210 7340 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4210 7440 60  0001 L CNN "Status"
-	1    4010 6240
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E268315
@@ -1023,26 +963,6 @@ F 5 "311-0.0GRCT-ND" H 7260 1910 50  0001 C CNN "DigiKey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q1
-U 1 1 5E2BD887
-P 2040 4670
-F 0 "Q1" H 2148 4723 60  0000 L CNN
-F 1 "DMG1012T-7" H 2148 4617 60  0000 L CNN
-F 2 "digikey-footprints:SOT-523" H 2240 4870 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2240 4970 60  0001 L CNN
-F 4 "DMG1012T-7DICT-ND" H 2240 5070 60  0001 L CNN "Digi-Key_PN"
-F 5 "DMG1012T-7" H 2240 5170 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2240 5270 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 2240 5370 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2240 5470 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 2240 5570 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 20V 630MA SOT-523" H 2240 5670 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 2240 5770 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2240 5870 60  0001 L CNN "Status"
-	1    2040 4670
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E2BD88F
 P 2040 4130
@@ -1121,6 +1041,8 @@ F 0 "J3" V 2918 3432 50  0000 R CNN
 F 1 "Conn_01x08" V 2873 3432 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 3000 3920 50  0001 C CNN
 F 3 "~" H 3000 3920 50  0001 C CNN
+F 4 "M20-9960845" H 3000 3920 50  0001 C CNN "Part #"
+F 5 "952-2249-ND" H 3000 3920 50  0001 C CNN "DigiKey"
 	1    3000 3920
 	0    -1   -1   0   
 $EndComp
@@ -1212,7 +1134,7 @@ U 1 1 5E40F4B8
 P 2510 2230
 F 0 "U5" H 2510 3100 50  0000 C CNN
 F 1 "FXL6408UMX" H 2510 3009 50  0000 C CNN
-F 2 "QFN40P260X180X55-16N" H 2510 2230 50  0001 L BNN
+F 2 "RasPi_NFC_Audio_PCB_Lib:QFN40P260X180X55-16N" H 2510 2230 50  0001 L BNN
 F 3 "" H 2510 2230 50  0001 L BNN
 F 4 "IPC-7351B" H 2510 2230 50  0001 L BNN "Field4"
 F 5 "ON Semiconductor" H 2510 2230 50  0001 L BNN "Field5"
@@ -1221,6 +1143,8 @@ F 7 "0.52 USD" H 2510 2230 50  0001 L BNN "Field7"
 F 8 "1.0.0" H 2510 2230 50  0001 L BNN "Field8"
 F 9 "UFQFN-16 ON Semiconductor" H 2510 2230 50  0001 L BNN "Field9"
 F 10 "FXL6408UMX" H 2510 2230 50  0001 L BNN "Field10"
+F 11 "FXL6408UMX" H 2510 2230 50  0001 C CNN "Part #"
+F 12 "FXL6408UMXCT-ND" H 2510 2230 50  0001 C CNN "DigiKey"
 	1    2510 2230
 	1    0    0    -1  
 $EndComp
@@ -1387,8 +1311,10 @@ U 1 1 5E577D31
 P 4890 2210
 F 0 "J6" H 4970 2156 50  0000 L CNN
 F 1 "Conn_01x10" H 4970 2111 50  0001 L CNN
-F 2 "" H 4890 2210 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal" H 4890 2210 50  0001 C CNN
 F 3 "~" H 4890 2210 50  0001 C CNN
+F 4 "68016-210HLF" H 4890 2210 50  0001 C CNN "Part #"
+F 5 "609-3322-ND" H 4890 2210 50  0001 C CNN "DigiKey"
 	1    4890 2210
 	1    0    0    -1  
 $EndComp
@@ -1491,4 +1417,92 @@ Wire Notes Line
 	7890 2610 7890 1110
 Wire Notes Line
 	7890 1110 5500 1110
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q1
+U 1 1 5E27717B
+P 2040 4670
+F 0 "Q1" H 2148 4723 60  0000 L CNN
+F 1 "DMG1012T-7" H 2148 4617 60  0000 L CNN
+F 2 "RasPi_NFC_Audio_PCB_Lib:SOT-523" H 2240 4870 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2240 4970 60  0001 L CNN
+F 4 "DMG1012T-7DICT-ND" H 2240 5070 60  0001 L CNN "Digi-Key_PN"
+F 5 "DMG1012T-7" H 2240 5170 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2240 5270 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 2240 5370 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2240 5470 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 2240 5570 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 20V 630MA SOT-523" H 2240 5670 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2240 5770 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2240 5870 60  0001 L CNN "Status"
+F 13 "DMG1012T-7DICT-ND" H 2040 4670 50  0001 C CNN "DigiKey"
+F 14 "DMG1012T-7" H 2040 4670 50  0001 C CNN "Part #"
+	1    2040 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q2
+U 1 1 5E2785AA
+P 2020 6240
+F 0 "Q2" H 2128 6293 60  0000 L CNN
+F 1 "DMG1012T-7" H 2128 6187 60  0000 L CNN
+F 2 "RasPi_NFC_Audio_PCB_Lib:SOT-523" H 2220 6440 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2220 6540 60  0001 L CNN
+F 4 "DMG1012T-7DICT-ND" H 2220 6640 60  0001 L CNN "Digi-Key_PN"
+F 5 "DMG1012T-7" H 2220 6740 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2220 6840 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 2220 6940 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 2220 7040 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 2220 7140 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 20V 630MA SOT-523" H 2220 7240 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 2220 7340 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2220 7440 60  0001 L CNN "Status"
+F 13 "DMG1012T-7DICT-ND" H 2020 6240 50  0001 C CNN "DigiKey"
+F 14 "DMG1012T-7" H 2020 6240 50  0001 C CNN "Part #"
+	1    2020 6240
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q3
+U 1 1 5E27ADED
+P 4010 6240
+F 0 "Q3" H 4118 6293 60  0000 L CNN
+F 1 "DMG1012T-7" H 4118 6187 60  0000 L CNN
+F 2 "RasPi_NFC_Audio_PCB_Lib:SOT-523" H 4210 6440 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4210 6540 60  0001 L CNN
+F 4 "DMG1012T-7DICT-ND" H 4210 6640 60  0001 L CNN "Digi-Key_PN"
+F 5 "DMG1012T-7" H 4210 6740 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4210 6840 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 4210 6940 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4210 7040 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 4210 7140 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 20V 630MA SOT-523" H 4210 7240 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4210 7340 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4210 7440 60  0001 L CNN "Status"
+F 13 "DMG1012T-7DICT-ND" H 4010 6240 50  0001 C CNN "DigiKey"
+F 14 "DMG1012T-7" H 4010 6240 50  0001 C CNN "Part #"
+	1    4010 6240
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:DMG1012T-7 Q4
+U 1 1 5E2898F3
+P 4030 4640
+F 0 "Q4" H 4138 4693 60  0000 L CNN
+F 1 "DMG1012T-7" H 4138 4587 60  0000 L CNN
+F 2 "RasPi_NFC_Audio_PCB_Lib:SOT-523" H 4230 4840 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4230 4940 60  0001 L CNN
+F 4 "DMG1012T-7DICT-ND" H 4230 5040 60  0001 L CNN "Digi-Key_PN"
+F 5 "DMG1012T-7" H 4230 5140 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4230 5240 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 4230 5340 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds31783.pdf" H 4230 5440 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232" H 4230 5540 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 20V 630MA SOT-523" H 4230 5640 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4230 5740 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4230 5840 60  0001 L CNN "Status"
+F 13 "DMG1012T-7" H 4030 4640 50  0001 C CNN "Part #"
+F 14 "DMG1012T-7DICT-ND" H 4030 4640 50  0001 C CNN "DigiKey"
+	1    4030 4640
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

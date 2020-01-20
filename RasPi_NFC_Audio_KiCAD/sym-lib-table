@@ -6,4 +6,5 @@
   (lib (name MAX98357)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MAX98357.lib)(options "")(descr ""))
   (lib (name MIC5225)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/MIC5225.lib)(options "")(descr ""))
   (lib (name FXL6408UMX)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/FXL6408UMX.lib)(options "")(descr ""))
+  (lib (name dk_Transistors-FETs-MOSFETs-Single)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/dk_Transistors-FETs-MOSFETs-Single.lib)(options "")(descr ""))
 )

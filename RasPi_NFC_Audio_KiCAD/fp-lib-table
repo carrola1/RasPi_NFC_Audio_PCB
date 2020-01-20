@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RasPi_NFC_Audio_PCB_Lib)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/RasPi_NFC_Audio_PCB_Lib.pretty)(options "")(descr ""))
+)
