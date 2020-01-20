@@ -28,17 +28,6 @@ F 5 "568-13228-ND" H 6400 3740 50  0001 C CNN "DigiKey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0116
-U 1 1 5ACE3D82
-P 6150 1050
-F 0 "#PWR0116" H 6150 900 50  0001 C CNN
-F 1 "+3.3V" H 6150 1190 50  0000 C CNN
-F 2 "" H 6150 1050 50  0001 C CNN
-F 3 "" H 6150 1050 50  0001 C CNN
-	1    6150 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0117
 U 1 1 5ACE3D89
 P 6300 5640
@@ -492,8 +481,6 @@ $EndComp
 Wire Wire Line
 	5250 3140 5350 3140
 Wire Wire Line
-	5350 3040 5250 3040
-Wire Wire Line
 	5350 2940 5250 2940
 Text GLabel 5250 3840 0    47   Output ~ 0
 NFC_RSTOUT_N
@@ -794,8 +781,6 @@ Wire Wire Line
 	6450 5640 6750 5640
 Text GLabel 5250 2940 0    50   Input ~ 0
 SEL0
-Text GLabel 5250 3040 0    50   Input ~ 0
-SEL1
 Text GLabel 1980 6440 0    50   Output ~ 0
 SEL0
 $Comp
@@ -809,65 +794,48 @@ F 3 "" H 2200 6860 50  0001 C CNN
 	1    2200 6860
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0128
-U 1 1 5E1B7781
-P 2200 6000
-F 0 "#PWR0128" H 2200 5850 50  0001 C CNN
-F 1 "+3.3V" H 2200 6140 50  0000 C CNN
-F 2 "" H 2200 6000 50  0001 C CNN
-F 3 "" H 2200 6000 50  0001 C CNN
-	1    2200 6000
-	1    0    0    -1  
-$EndComp
-Text GLabel 2920 6440 0    50   Output ~ 0
-SEL1
 Wire Notes Line
-	2370 7140 2370 7340
+	2600 6530 2600 6730
 Wire Notes Line
-	2370 7140 2970 7140
+	2600 6530 3200 6530
 Wire Notes Line
-	2370 7240 2970 7240
+	2600 6630 3200 6630
 Wire Notes Line
-	2370 7340 2970 7340
+	2600 6730 3200 6730
 Wire Notes Line
-	2670 6840 2970 6840
+	2900 6230 3200 6230
 Wire Notes Line
-	2670 6840 2670 7340
+	2900 6230 2900 6730
 Wire Notes Line
-	2970 6840 2970 7340
+	3200 6230 3200 6730
 Wire Notes Line
-	2870 6840 2870 7340
+	3100 6230 3100 6730
 Wire Notes Line
-	2770 6840 2770 7340
-Text Notes 2420 7230 0    50   ~ 0
+	3000 6230 3000 6730
+Text Notes 2650 6620 0    50   ~ 0
 SEL0
-Text Notes 2420 7330 0    50   ~ 0
+Text Notes 2650 6720 0    50   ~ 0
 SEL1
-Text Notes 2690 7330 0    50   ~ 0
+Text Notes 2920 6720 0    50   ~ 0
 0
-Text Notes 2690 7230 0    50   ~ 0
+Text Notes 2920 6620 0    50   ~ 0
 0
-Text Notes 2790 7230 0    50   ~ 0
+Text Notes 3020 6620 0    50   ~ 0
 0
-Text Notes 2890 7330 0    50   ~ 0
+Text Notes 3120 6720 0    50   ~ 0
 0
-Text Notes 2790 7330 0    50   ~ 0
+Text Notes 3020 6720 0    50   ~ 0
 1
-Text Notes 2890 7230 0    50   ~ 0
+Text Notes 3120 6620 0    50   ~ 0
 1
-Text Notes 2750 7110 1    50   ~ 0
+Text Notes 2980 6500 1    50   ~ 0
 UART
-Text Notes 2850 7110 1    50   ~ 0
+Text Notes 3080 6500 1    50   ~ 0
 SPI
-Text Notes 2950 7110 1    50   ~ 0
+Text Notes 3180 6500 1    50   ~ 0
 I2C
 Wire Notes Line
-	1680 5640 1680 7430
-Wire Notes Line
-	1680 7430 3490 7430
-Wire Notes Line
-	3490 7430 3490 5630
+	1680 7150 3490 7150
 Wire Notes Line
 	3490 5630 1680 5630
 Text Notes 1810 5790 0    79   ~ 0
@@ -953,68 +921,8 @@ Wire Wire Line
 Connection ~ 2200 6440
 Wire Wire Line
 	2200 6440 2200 6510
-$Comp
-L power:GND #PWR05
-U 1 1 5E1FB945
-P 3210 6860
-F 0 "#PWR05" H 3210 6610 50  0001 C CNN
-F 1 "GND" H 3210 6710 50  0000 C CNN
-F 2 "" H 3210 6860 50  0001 C CNN
-F 3 "" H 3210 6860 50  0001 C CNN
-	1    3210 6860
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 5E1FB94B
-P 3210 6000
-F 0 "#PWR04" H 3210 5850 50  0001 C CNN
-F 1 "+3.3V" H 3210 6140 50  0000 C CNN
-F 2 "" H 3210 6000 50  0001 C CNN
-F 3 "" H 3210 6000 50  0001 C CNN
-	1    3210 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 5E1FB953
-P 3210 6660
-F 0 "R23" V 3290 6660 50  0000 C CNN
-F 1 "10k" V 3210 6660 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3140 6660 50  0001 C CNN
-F 3 "" H 3210 6660 50  0001 C CNN
-F 4 "RNCP0603FTD10K0" H 3210 6660 50  0001 C CNN "Part #"
-F 5 "RNCP0603FTD10K0CT-ND" H 3210 6660 50  0001 C CNN "DigiKey"
-	1    3210 6660
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 5E1FB95C
-P 3210 6210
-F 0 "R22" V 3290 6210 50  0000 C CNN
-F 1 "10k" V 3210 6210 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3140 6210 50  0001 C CNN
-F 3 "" H 3210 6210 50  0001 C CNN
-F 4 "RNCP0603FTD10K0" H 3210 6210 50  0001 C CNN "Part #"
-F 5 "RNCP0603FTD10K0CT-ND" H 3210 6210 50  0001 C CNN "DigiKey"
-F 6 "DNP" H 3080 6200 50  0000 C CNN "DNP"
-	1    3210 6210
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3210 6000 3210 6060
-Wire Wire Line
-	3210 6360 3210 6440
-Connection ~ 3210 6440
-Wire Wire Line
-	3210 6440 3210 6510
-Wire Wire Line
-	2920 6440 3210 6440
 Wire Wire Line
 	2200 6810 2200 6860
-Wire Wire Line
-	3210 6810 3210 6860
 $Comp
 L power:GND #PWR0132
 U 1 1 5E219318
@@ -1072,4 +980,39 @@ F 3 "" H 7500 1140 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 1140 7500 1210
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E27C64E
+P 6150 1050
+AR Path="/5E27C64E" Ref="#PWR?"  Part="1" 
+AR Path="/5E17696B/5E27C64E" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 6150 900 50  0001 C CNN
+F 1 "+BATT" H 6165 1223 50  0000 C CNN
+F 2 "" H 6150 1050 50  0001 C CNN
+F 3 "" H 6150 1050 50  0001 C CNN
+	1    6150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E282E16
+P 2200 6000
+AR Path="/5E282E16" Ref="#PWR?"  Part="1" 
+AR Path="/5E17696B/5E282E16" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 2200 5850 50  0001 C CNN
+F 1 "+BATT" H 2215 6173 50  0000 C CNN
+F 2 "" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3040 5250 3040
+Wire Wire Line
+	5250 3040 5250 3140
+Connection ~ 5250 3140
+Wire Notes Line
+	3490 5630 3490 7150
+Wire Notes Line
+	1680 7150 1680 5630
 $EndSCHEMATC
